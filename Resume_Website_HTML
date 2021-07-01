@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resume.css" />
+    <script
+      src="https://kit.fontawesome.com/2ddd78a7b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Pratham Sharma</title>
+  </head>
+  <body>
+    <header id="body-header">
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="name-social-container">
+        <h1 id="name">Pratham Sharma</h1>
+        <ul class="social">
+          <li class="nav-item">
+            <a style="border-radius: 50%" class="nav-link" href="#"
+              ><i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a style="border-radius: 50%" class="nav-link" href="#"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a style="border-radius: 50%" class="nav-link" href="#"
+              ><i class="fas fa-paper-plane"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a style="border-radius: 50%" class="nav-link" href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a style="border-radius: 50%" class="nav-link" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a style="border-radius: 50%" class="nav-link" href="#"
+              ><i class="fab fa-quora"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a style="border-radius: 50%" class="nav-link" href="#"
+              ><i class="fab fa-stack-overflow"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main style="background-color: rgb(250, 242, 242);">
+      <section id="about">
+        <div id="my-image">
+          <img src="https://i.postimg.cc/hPLrmyfX/my-image.jpg" />
+        </div>
+        <p id="about-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </section>
+      <section id="skills-section">
+        <h2 style="text-align: center; font-size: 50px; margin-top: 100px;"><i class="fas fa-tools"></i>&nbsp&nbspSkills</h2>
+        <ul class="skills">
+          <li class="skill-item">
+            <a class="skill-link" href="#"
+              ><img
+                alt="svgImg"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAyMjYgMjI2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDIyNnYtMjI2aDIyNnYyMjZ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTExMyw5LjA0Yy0zLjIzMTA5LDAgLTYuNDQ0NTMsMC44MTIxOSAtOS4zNDAxNiwyLjQzNjU2bC03Ni4xMzM3NSw0Mi43ODEwOWMtNS43OTEyNSwzLjI2NjQxIC05LjQ0NjA5LDkuMzU3ODEgLTkuNDQ2MDksMTUuOTYxMjV2ODUuNTYyMTljMCw2LjYyMTA5IDMuNjU0ODQsMTIuNzEyNSA5LjQ0NjA5LDE1Ljk3ODkxbDc2LjEzMzc1LDQyLjc2MzQ0YzUuNzkxMjUsMy4yNjY0MSAxMi44ODkwNiwzLjI2NjQxIDE4LjY4MDMxLDBsNzYuMTMzNzUsLTQyLjc2MzQ0YzUuODA4OTEsLTMuMjY2NDEgOS40NDYwOSwtOS4zNzU0NyA5LjQ0NjA5LC0xNS45Nzg5MXYtODUuNTYyMTljMCwtNi42MDM0NCAtMy42NTQ4NCwtMTIuNjk0ODQgLTkuNDQ2MDksLTE1Ljk2MTI1bC03Ni4xMzM3NSwtNDIuNzgxMDljLTIuODk1NjIsLTEuNjI0MzcgLTYuMTA5MDYsLTIuNDM2NTYgLTkuMzQwMTYsLTIuNDM2NTZ6TTExMywxOC4wOGMxLjY5NSwwIDMuNDA3NjYsMC40MjM3NSA0LjkyNjA5LDEuMjcxMjVsNzYuMTMzNzUsNDIuNzgxMDljMy4wMTkyMiwxLjcxMjY2IDQuODIwMTYsNC43ODQ4NCA0LjgyMDE2LDguMDg2NTZ2MzguMjYxMDloLTkuMDR2LTkuMDRoLTkuMDR2OS4wNGgtOS4wNHY5LjA0aDkuMDR2OS4wNGg5LjA0di05LjA0aDkuMDR2MzguMjYxMDljMCwzLjMwMTcyIC0xLjgwMDk0LDYuMzczOTEgLTQuODM3ODEsOC4wODY1NmwtNzYuMTE2MDksNDIuNzgxMDljLTMuMDM2ODcsMS42OTUgLTYuODE1MzEsMS42OTUgLTkuODUyMTksMGwtNzYuMTE2MDksLTQyLjc4MTA5Yy0zLjAzNjg3LC0xLjcxMjY2IC00LjgzNzgxLC00Ljc2NzE5IC00LjgzNzgxLC04LjA4NjU2di04NS41NjIxOWMwLC0zLjMwMTcyIDEuODAwOTQsLTYuMzczOTEgNC44Mzc4MSwtOC4wODY1Nmw3Ni4xMTYwOSwtNDIuNzgxMDljMS41MTg0NCwtMC44NDc1IDMuMjMxMDksLTEuMjcxMjUgNC45MjYwOSwtMS4yNzEyNXpNMTEzLDU0LjI0Yy0zMi4zNjM5MSwwIC01OC43NiwyNi4zOTYwOSAtNTguNzYsNTguNzZjMCwzMi4zNjM5MSAyNi4zOTYwOSw1OC43NiA1OC43Niw1OC43NmMxOC40ODYwOSwwIDM1LjY0Nzk3LC04LjYxNjI1IDQ2LjczNjA5LC0yMy4yMTc5N2wzLjA4OTg0LC00LjA3ODU5bC0yNy4zNjcxOSwtMTUuODU1MzFsLTIuNDcxODcsMi42ODM3NWMtNS4xMDI2Niw1LjU3OTM3IC0xMi4zNDE3Miw4LjgyODEzIC0xOS45ODY4OCw4LjgyODEzYy0xNC45OTAxNiwwIC0yNy4xMiwtMTIuMTI5ODQgLTI3LjEyLC0yNy4xMmMwLC0xNC45OTAxNiAxMi4xMjk4NCwtMjcuMTIgMjcuMTIsLTI3LjEyYzcuNjQ1MTYsMCAxNC44ODQyMiwzLjI0ODc1IDE5Ljk4Njg4LDguODI4MTNsMi40NzE4NywyLjY4Mzc1bDI3LjM2NzE5LC0xNS44NTUzMWwtMy4wODk4NCwtNC4wNzg1OWMtMTEuMDg4MTMsLTE0LjYwMTcyIC0yOC4yNSwtMjMuMjE3OTcgLTQ2LjczNjA5LC0yMy4yMTc5N3pNMTEzLDYzLjI4YzEzLjg5NTQ3LDAgMjYuNjA3OTcsNS45NTAxNiAzNS45MTI4MSwxNS44NzI5N2wtMTIuMzk0NjksNy4xNjg0NGMtNi41MzI4MSwtNS43MjA2MiAtMTQuNjU0NjksLTkuNDgxNDEgLTIzLjUxODEzLC05LjQ4MTQxYy0xOS44OTg1OSwwIC0zNi4xNiwxNi4yNjE0MSAtMzYuMTYsMzYuMTZjMCwxOS44OTg1OSAxNi4yNjE0MSwzNi4xNiAzNi4xNiwzNi4xNmM4Ljg2MzQ0LDAgMTYuOTg1MzEsLTMuNzYwNzggMjMuNTE4MTMsLTkuNDgxNDFsMTIuMzk0NjksNy4xNjg0NGMtOS4zMDQ4NCw5LjkyMjgxIC0yMi4wMTczNCwxNS44NzI5NyAtMzUuOTEyODEsMTUuODcyOTdjLTI3LjQ1NTQ3LDAgLTQ5LjcyLC0yMi4yNjQ1MyAtNDkuNzIsLTQ5LjcyYzAsLTI3LjQ1NTQ3IDIyLjI2NDUzLC00OS43MiA0OS43MiwtNDkuNzJ6TTE0OS4xNiw5OS40NHY5LjA0aC05LjA0djkuMDRoOS4wNHY5LjA0aDkuMDR2LTkuMDRoOS4wNHYtOS4wNGgtOS4wNHYtOS4wNHoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="
+              />&nbspC++</a
+            >
+          </li>
+          <li class="skill-item">
+            <a class="skill-link" href="#"
+              ><i class="fab fa-python"></i>&nbspPython</a
+            >
+          </li>
+          <li class="skill-item">
+            <a class="skill-link" href="#"
+              ><i class="fab fa-html5"></i>&nbspHTML</a
+            >
+          </li>
+          <li class="skill-item">
+            <a class="skill-link" href="#"
+              ><i class="fab fa-css3-alt"></i>&nbspCSS</a
+            >
+          </li>
+          <li class="skill-item">
+            <a class="skill-link" href="#"
+              ><i class="fab fa-js"></i>&nbspJavaScript</a
+            >
+          </li>
+          <li class="skill-item">
+            <a class="skill-link" href="#"
+              ><i class="fas fa-database"></i>&nbspDS & Algo</a
+            >
+          </li>
+          <li class="skill-item">
+            <a class="skill-link" href="#"
+              ><i class="fab fa-node"></i>&nbspNodejs</a
+            >
+          </li>
+          <li class="skill-item">
+            <a class="skill-link" href="#"
+              ><i class="fab fa-react"></i>&nbspReact</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="experience"></section>
+      <section id="education"></section>
+      <section id="portfolio"></section>
+      <section id="contact"></section>
+    </main>
+  </body>
+</html>
