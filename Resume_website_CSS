@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    height: 65vh;
+    background-image: url(https://w3programmers.com/bangla/wp-content/uploads/2018/12/css-backgrounds.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    opacity: 0.8;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin: 4px 40px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.nav-item{
+    list-style: none;
+    display: inline-block;
+   
+}
+.nav{
+     text-align: center;
+}
+.nav a:hover{
+    color: rgb(255, 255, 199);
+    text-transform: uppercase;
+    text-decoration-line: underline ;
+    text-decoration-color: rgba(209, 208, 200, 0.616);
+
+}
+#name{
+    margin-top: 100px;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.social{
+    text-align: center;
+}
+.social a:hover{
+    box-shadow: 0px 0px 8px 6px rgba(212, 182, 182, 0.3);
+}
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow:2px 0px 4px 4px lightgray;
+}
+#about-text{
+    padding: 4px;
+    margin: 40px;
+    color: grey;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#skills-section{
+    background-color: rgb(243, 232, 232);
+    margin-top: 100px;
+    text-align: center;
+}
+.skill-item{
+    text-decoration: none;
+    display:inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.skill-link{
+    padding: 20px;
+    margin: 10px;
+    font-size:xx-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: 5px solid black;
+    border-radius: 25%;
+    box-sizing: border-box;
+    border-color: black;
+    background-color: black;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
