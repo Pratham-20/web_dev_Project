@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+<script>
+    let a;
+    let date;
+    let time;
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    setInterval(() => {
+        a = new Date();
+        date = a.toLocaleDateString(undefined, options);
+        time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+        document.getElementById('time').innerHTML = time + '<br>on ' + date;
+    }, 1000);
+</script>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CLOCK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Items
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Current Location</a>
+                        <a class="dropdown-item" href="#">Another Location</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Time Gap</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">The current time is: <span id="time"></span></h1>
+            <p class="lead">We are here to show you the time of different countries.</p>
+            <hr class="my-4">
+            <p>We have got you covered.</p>
+            <p class="lead">
+                <p>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Browse countries
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        1   Afghanistan	
+                        <br>3	Algeria	
+                        <br>2	Albania	
+                        <br>4	Andorra	
+                        <br>5	Angola	
+                        <br>6	Antigua and Barbuda	
+                        <br>7	Argentina	
+                        <br>8	Armenia	
+                        <br>9	Australia	
+                        <br>10	Austria	
+                        <br>11	Azerbaijan	
+                        <br>12	Bahamas	
+                        <br>13	Bahrain	
+                        <br>14	Bangladesh
+                        <br>15	Barbados	
+                        <br>16	Belarus		
+                        <br>17	Belgium	
+                        <br>18	Belize	
+                        <br>19	Benin	
+                        <br>20	Bhutan	
+                        <br>21	Bolivia		
+                        <br>22	Bosnia and Herzegovina	
+                        <br>23	Botswana	
+                        <br>24	Brazil
+                        <br>25	Brunei
+                        <br>26	Bulgaria	
+                        <br>27	Burkina Faso	
+                        <br>28	Burundi	
+                        <br>29	Côte d'Ivoire	
+                        <br>30	Cabo Verde	
+                        <br>31	Cambodia	
+                        <br>32	Cameroon	
+                        <br>33	Canada	
+                        <br>34	Central African Republic	
+                        <br>35	Chad	
+                        <br>36	Chile	
+                        <br>37	China	
+                        <br>38	Colombia	
+                        <br>39	Comoros	
+                        <br>40	Congo (Congo-Brazzaville)	
+                        <br>41	Costa Rica	
+                        <br>42	Croatia	
+                        <br>43	Cuba	
+                        <br>44	Cyprus
+                        <br>45	Czechia (Czech Republic)	
+                        <br>46	Democratic Republic of the Congo	
+                        <br>47	Denmark	
+                        <br>48	Djibouti	
+                        <br>49	Dominica	
+                        <br>50	Dominican Republic	
+                        <br>51	Ecuador
+                        <br>52	Egypt	
+                        <br>53	El Salvador
+                        <br>54	Equatorial Guinea	
+                        <br>55	Eritrea	3,546,421	
+                        <br>56	Estonia	1,326,535	
+                        <br>57	Eswatini (fmr. "Swaziland")	
+                        <br>58	Ethiopia	
+                        <br>59	Fiji	
+                        <br>60	Finland	
+                        <br>61	France	
+                        <br>62	Gabon	
+                        <br>63	Gambia	
+                        <br>64	Georgia	
+                        <br>65	Germany	
+                        <br>66	Ghana	
+                        <br>67	Greece	
+                        <br>68	Grenada	
+                        <br>69	Guatemala	
+                        <br>70	Guinea	
+                        <br>71	Guinea-Bissau	
+                        <br>72	Guyana	
+                        <br>73	Haiti	
+                        <br>74	Holy See	
+                        <br>75	Honduras	
+                        <br>76	Hungary
+                        <br>77	Iceland	
+                        <br>78	India	
+                        <br>79	Indonesia	
+                        <br>80	Iran	
+                        <br>81	Iraq	
+                        <br>82	Ireland
+                        <br>83	Israel	
+                        <br>84	Italy	
+                        <br>85	Jamaica	
+                        <br>86	Japan	
+                        <br>87	Jordan	
+                        <br>88	Kazakhstan	
+                        <br>89	Kenya	
+                        <br>90	Kiribati	
+                        <br>91	Kuwait	
+                        <br>92	Kyrgyzstan	
+                        <br>93	Laos	
+                        <br>94	Latvia	
+                        <br>95	Lebanon	
+                        <br>96	Lesotho	
+                        <br>97	Liberia
+                        <br>98	Libya	
+                        <br>99	Liechtenstein	
+                        <br>100	Lithuania	
+                        <br>101	Luxembourg	
+                        <br>102	Madagascar	
+                        <br>103	Malawi	
+                        <br>104	Malaysia	
+                        <br>105	Maldives	
+                        <br>106	Mali	
+                        <br>107	Malta	
+                        <br>108	Marshall Islands	
+                        <br>109	Mauritania
+                        <br>110	Mauritius	
+                        <br>111	Mexico	
+                        <br>112	Micronesia	
+                        <br>113	Moldova
+                        <br>114	Monaco	
+                        <br>115	Mongolia	
+                        <br>116	Montenegro	
+                        <br>117	Morocco	
+                        <br>118	Mozambique	
+                        <br>119	Myanmar (formerly Burma)	
+                        <br>120	Namibia	
+                        <br>121	Nauru	
+                        <br>122	Nepal	
+                        <br>123	Netherlands	
+                        <br>124	New Zealand	
+                        <br>125	Nicaragua	
+                        <br>126	Niger	
+                        <br>127	Nigeria
+                        <br>128	North Korea	
+                        <br>129	North Macedonia	
+                        <br>130	Norway	
+                        <br>131	Oman	
+                        <br>132	Pakistan	
+                        <br>133	Palau	
+                        <br>134	Palestine State	
+                        <br>135	Panama	
+                        <br>136	Papua New Guinea	
+                        <br>137	Paraguay	
+                        <br>138	Peru	
+                        <br>139	Philippines	
+                        <br>140	Poland	
+                        <br>141	Portugal	
+                        <br>142	Qatar	
+                        <br>143	Romania	
+                        <br>144	Russia	
+                        <br>145	Rwanda	
+                        <br>146	Saint Kitts and Nevis	
+                        <br>147	Saint Lucia	
+                        <br>148	Saint Vincent and the Grenadines	
+                        <br>149	Samoa	
+                        <br>150	San Marino	
+                        <br>151	Sao Tome and Principe	
+                        <br>152	Saudi Arabia	
+                        <br>153	Senegal	
+                        <br>154	Serbia
+                        <br>155	Seychelles
+                        <br>156	Sierra Leone	
+                        <br>157	Singapore	
+                        <br>158	Slovakia	
+                        <br>159	Slovenia	
+                        <br>160	Solomon Islands	
+                        <br>161	Somalia	
+                        <br>162	South Africa	
+                        <br>163	South Korea	
+                        <br>164	South Sudan	
+                        <br>165	Spain	
+                        <br>166	Sri Lanka	
+                        <br>167	Sudan	
+                        <br>168	Suriname	
+                        <br>169	Sweden	
+                        <br>170	Switzerland	
+                        <br>171	Syria	
+                        <br>172	Tajikistan
+                        <br>173	Tanzania	
+                        <br>174	Thailand	
+                        <br>175	Timor-Leste	
+                        <br>176	Togo	
+                        <br>177	Tonga	
+                        <br>178	Trinidad and Tobago	
+                        <br>179	Tunisia	
+                        <br>180	Turkey	
+                        <br>181	Turkmenistan	
+                        <br>182	Tuvalu	
+                        <br>183	Uganda	
+                        <br>184	Ukraine	
+                        <br>185	United Arab Emirates	
+                        <br>186	United Kingdom	
+                        <br>187	United States of America	
+                        <br>188	Uruguay	
+                        <br>189	Uzbekistan	
+                        <br>190	Vanuatu	
+                        <br>191	Venezuela	
+                        <br>192	Vietnam	
+                        <br>193	Yemen	
+                        <br>194	Zambia	
+                        <br>195	Zimbabwe	
+                    </div>
+                  </div>
+            </p>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
